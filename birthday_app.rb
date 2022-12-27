@@ -14,4 +14,10 @@ class Application < Sinatra::Base
   get '/' do
     return erb(:index)
   end
+
+  post '/submit' do
+    name = params[:name]
+    birth_date = params[:birth_date]
+    birth_month = params[:birth_month]
+  end
 end
