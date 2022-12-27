@@ -1,0 +1,41 @@
+<html>
+  <body>
+    <h1>Hello there!</h1>
+    <form>
+      <div id="name-section">
+        <div id="question">
+          <label for="name">What's your name?</label>
+        </div>
+
+        <input type="text" id="name" name="name">
+      </div>
+
+      <div id="birthday-section">
+        <div id="question">
+          <label for="birthday">When's your birthday?</label>
+        </div>
+
+        <label for="birth_date">Day:</label>
+        <input type="number" id="birth_date" name="birth_date" min="1" max="31">
+
+        <label for="birth_month">Month:</label>
+        <select name="birth_month" id="birth_month">
+          <option value="jan">January</option>
+          <option value="feb">February</option>
+          <option value="march">March</option>
+          <option value="april">April</option>
+          <option value="may">May</option>
+          <option value="june">June</option>
+          <option value="jul">July</option>
+          <option value="aug">August</option>
+          <option value="sep">September</option>
+          <option value="oct">October</option>
+          <option value="nov">November</option>
+          <option value="dec">December</option>
+        </select>
+        
+      </div>
+      <input type="submit" value="Go!"/>
+    </form>
+  </body>
+</html>
