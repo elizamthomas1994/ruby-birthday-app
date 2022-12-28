@@ -1,0 +1,9 @@
+<html>
+  <body>
+    <% if @days_to_go == 365 %>
+      <h1>Happy Birthday <%= @name %> !<h1>
+    <% else %>
+      <h3>Your birthday will be in <%= @days_to_go %> days <%= @name %> !</h3>
+    <% end %>
+  </body>
+</html>
